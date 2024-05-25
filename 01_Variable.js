@@ -14,6 +14,8 @@
       // Array           object
       // Functions       object
 
+      // CLASS           function
+
 // type of variable
 
 //    const  ( block Scope )
