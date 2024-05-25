@@ -17,7 +17,7 @@ map.set("sonu", "kumar");
 //       computer: 'leneovo'
 // }
 
-// ******************* for of ********************
+// ******************** for of ********************
 
 // for (const item of arr) {no
 //       console.log(item)
@@ -27,14 +27,14 @@ map.set("sonu", "kumar");
 // for (const item of Obj) {
 //       console.log(item)
 // }
-// ERROR not iterable on object
+// ERROR not iterable on object Important for of Not iterable on Object
 
 // for (const item of map) {
 //       console.log(item)
 // }
 // [ 'sonu', 'kumar' ]
 
-// ******************* for in ********************
+// ******************** for in ********************
 
 // for (const key in arr) {
 //       console.log(arr[key])
@@ -52,7 +52,7 @@ map.set("sonu", "kumar");
 // hello :- world
 // computer :- lenovo
 
-// ******************* for ********************
+// ******************** for ********************
 
 // for (let index = 0; index < arr.length; index++) {
 //        console.log(arr[index])

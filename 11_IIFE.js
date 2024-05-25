@@ -1,6 +1,6 @@
 // immediatly invoked function expressions (  IIFE )
 
-// (important) always use ';' after iife
+// Important always use ';' after iife
 
 // Named IIFE
 (

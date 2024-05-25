@@ -7,7 +7,7 @@ const str = "abcdefghijkl"
 // console.log(str.replace('e','-'))    // abcd-fghijkl
 // console.log("a#bcd#e".split('#'))    // [ 'a', 'bcd', 'e' ]
 
-// => we give negative no in Slice
+// NOTE: we give negative no in Slice
 
 // const newStr = str.slice(0,3); 
 // console.log(newStr)  // abc

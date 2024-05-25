@@ -31,8 +31,7 @@ let myObj = {
 //        [Symbol(key1)]: 'mykey1'
 // }
 
-var array;
-// **************** Convert into Array  *************
+// ******************** Convert into Array  ********************
 
 // const newArr = Object.entries(myObj);
 // console.log(newArr)
@@ -48,9 +47,7 @@ var array;
 // const newArr = Object.values(myObj);
 // console.log(newArr)             // [ 'shivansh sonu', 'sonu Kumar', 25 ]
 
-var deep;
-
-// **************** Deep Copy *************
+// ******************** Deep Copy ********************
 
 const newObject = {
       name: "sonu kumar",

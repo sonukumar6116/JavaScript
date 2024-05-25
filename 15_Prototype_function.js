@@ -26,7 +26,7 @@ const user1 = new sample("sonu")
 // 0.4712922677111051
 // sample { username: 'sonu', sayHello: [Function (anonymous)] }
 
-// ******************  Wrong Way  ********************
+// ********************  Wrong Way  ********************
 
 function sample2(params) {
       console.log('hello')

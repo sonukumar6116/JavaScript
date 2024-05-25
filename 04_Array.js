@@ -1,4 +1,4 @@
-// myarray create a Shallow Copy
+// -> myarray create a Shallow Copy
 let myarray = [0,"sonu",'a',null]
 const array = new Array(1,2,3);
 
@@ -39,9 +39,9 @@ const second = [4,5,6];
 first.push(second);
 // console.log(first)         // [ 1, 2, 3, [ 4, 5, 6 ] ] 
 
-//  ****************** Deep Copy of array **************************
+//  ******************** Deep Copy of array ********************
 
-// ( 1 ) => [...array] (Spread Operator)
+// ( 1 ) -> [...array] (Spread Operator)
 
 const spreadArray = [...first]
 // console.log(spreadArray)    // [ 1, 2, 3, [ 4, 5, 6 ] ]
@@ -52,9 +52,9 @@ const spreadArray = [...first]
 // console.log(first)            // [ 1, 2, 11, [ 10, 5, 6 ] ]
 // console.log(spreadArray)      // [ 1, 2, 3, [ 10, 5, 6 ] ]
 
-// (*) Conclusion -> Spread Operator only spread a first layer of Data
+//  NOTE: -> Spread Operator only spread a first layer of Data
 
-// ( 2 ) => structureClone(arr)
+// ( 2 ) -> structureClone(arr)
 
 const structureArr = structuredClone(first);
 
@@ -64,7 +64,7 @@ const structureArr = structuredClone(first);
 // console.log(first)            // [ 1, 2, 11, [ 10, 5, 6 ] ]
 // console.log(structureArr)     // [ 1, 2, 3, [ 4, 5, 6 ] ]
 
-// ( 3 ) => assign([],arr)
+// ( 3 ) -> assign([],arr)
 
 const assignArr = Object.assign([],first);
 
@@ -75,7 +75,7 @@ const assignArr = Object.assign([],first);
 // console.log(assignArr)        // [ 1, 2, 3, [ 10, 5, 6 ] ]
 
 
-// *********************** flating Arr **********************
+// ******************** flating Arr ********************
 
 const flatArr = first.flat(Infinity);
 
@@ -83,7 +83,7 @@ const flatArr = first.flat(Infinity);
 // console.log(flatArr)          // [ 1, 2, 3, 4, 5, 6 ]
 
 
-// ****************** Array conversion *****************
+// ******************** Array conversion ********************
 
 // console.log(Array.isArray("sonu"))   // false
 // console.log(Array.from("Sonu"))      // [ 'S', 'o', 'n', 'u' ]

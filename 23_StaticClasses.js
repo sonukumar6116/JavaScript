@@ -1,5 +1,5 @@
 // there are multiple type we can use Static 
-// its use on a Class not on a ClassObject 
+// NOTE: its use on a Class not on a ClassObject 
 
 class CreateUser{
       constructor(username,email){

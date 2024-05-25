@@ -1,4 +1,4 @@
-// class typeOf => Function
+// NOTE: class typeOf => Function
 
 class user{
       constructor(username,email){

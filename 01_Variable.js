@@ -1,4 +1,4 @@
-// primitive (pass By Value)
+// -> primitive (pass By Value)
       //                 typeof 
       // boolean,           Bool
       // Int,            Int
@@ -8,7 +8,7 @@
       // undefined,      undefined
       // null,           Object ( Important )
 
-// Non-Primitive (pass By reference)
+// -> Non-Primitive (pass By reference)
 
       // Object          object
       // Array           object
@@ -16,10 +16,10 @@
 
       // CLASS           function
 
-// type of variable
+// -> type of variable
 
 //    const  ( block Scope )
 //    let    ( block Scope )
 //    var    ( functional or global scope)
 
-// => Jvascript is Dynamic type language (not to defiend type of variable like int , string)
+// NOTE: Jvascript is Dynamic type language (not to defiend type of variable like int , string)

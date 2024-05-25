@@ -16,7 +16,7 @@ const func3 = () => {
 }
 func3();
 
-// *********** IMPLICITE AND EXPLICITE RETURN ************
+// ******************** IMPLICITE AND EXPLICITE RETURN ********************
 
 // IMPLICITE
 const first = () => (4);
@@ -26,12 +26,12 @@ const second = () => {
       return 4;
 }
 
-// *********** ARGUMENT AND PARAMETER RETURN ************
+// ******************** ARGUMENT AND PARAMETER RETURN ********************
 
-function sample(a,b,c) {  // parameter
+function sample(a,b,c) {  // Important parameter
       console.log(a,b,c)
 }
 
-sample(1,2,3) // argument
+sample(1,2,3) // Important argument
 
 

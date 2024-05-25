@@ -1,3 +1,6 @@
+// NOTE: a function which receive function as a parameter or return a function
+//       after execution is HIGHER ORDER FUNCTION
+
 const arr = [
       {
             first: "sonu",
